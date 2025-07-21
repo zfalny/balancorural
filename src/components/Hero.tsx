@@ -46,7 +46,9 @@ const Hero = () => {
               <ChevronRight className="w-5 h-5 ml-1" />
             </a>
             <a
-              href="#demo"
+              href={whatsappLink} // Alterado para o mesmo link do WhatsApp
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/30 rounded-full hover:bg-white/10 backdrop-blur-sm transition-all duration-200"
             >
               <Calculator className="w-5 h-5 mr-2" />
